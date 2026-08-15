@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text Formatter</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header>
+      <h1>Text Formatter</h1>
+      <p>Transform and analyze your text with ease.</p>
+    </header>
+
+    <section class="formatter-card">
+
+      <label for="text">Your Text</label>
+
+      <textarea
+        id="text"
+        rows="8"
+        placeholder="Enter your text here..."
+      ></textarea>
+
+      <div class="controls">
+
+        <select name="action" id="action">
+          <option value="To upper case">To upper case</option>
+          <option value="To lower case">To lower case</option>
+          <option value="Title Case">Title Case</option>
+          <option value="Reverse Text">Reverse Text</option>
+          <option value="Text Stats">Text Stats</option>
+        </select>
+
+        <button id="goBtn" onclick="format()">Go</button>
+
+      </div>
+
+    </section>
+
+    <section class="result-card">
+
+      <h2>Result</h2>
+
+      <div id="resultDisplay">
+        Your formatted text will appear here...
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
