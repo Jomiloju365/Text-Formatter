@@ -24,7 +24,7 @@ No frameworks or external libraries are required.
 
 1. Clone the repository
 
-git clone https://github.com/your-username/text-formatter.git
+git clone https://github.com/jomiloju365/text-formatter.git
 
 2. Open the project
 
